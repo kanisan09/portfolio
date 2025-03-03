@@ -1,8 +1,16 @@
 .link-img{
     transform: scale(0.6);
 }
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+.parent-container{
+    display: flex;
+    align-items: flex-start;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-container a{
+    width: 48%;
+    margin-bottom: 10px;
 }
