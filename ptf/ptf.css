@@ -1,12 +1,18 @@
 body{
-    margin: 0 250px;
+    font-weight: bold;
+    margin: 0 250px 0 250px;
+}
+body #shiori {
+    margin: 50px 0 0 200px;
+    font-size: 45px;
 }
 .link-img{
-    transform: scale(0.7);
+    transform: scale(0.8);
 }
 .parent-container{
     display: flex;
     justify-content: center;
+    margin-top: 0;
 }
 .flex-container{
     display: flex;
