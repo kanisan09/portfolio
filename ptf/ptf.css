@@ -1,16 +1,25 @@
+body{
+    margin: 0 250px;
+}
 .link-img{
-    transform: scale(0.6);
+    transform: scale(0.7);
 }
 .parent-container{
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
 }
 .flex-container{
     display: flex;
+    width: 200px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .flex-container a{
-    width: 48%;
+    width: 130px;
     margin-bottom: 10px;
+}
+
+.flex-container img{
+    width: 100%;
+    height: auto;
 }
