@@ -66,3 +66,16 @@ strong{
     padding: 4px;
     border: 2px solid #a9a9a9;
 }
+.ja{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 4px;
+    border: 1px solid #b2b2b3;
+    width: 140px;
+}
+.ja-s{
+    background-color: rgb(244, 112, 75);
+}
+.php{
+    background-color: rgb(110, 85, 155);
+}
