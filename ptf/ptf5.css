@@ -1,11 +1,10 @@
 body{
-    margin: 0 300px;
+    padding: 0 100px;
 }
 strong{
     font-size: 20px;
     background-color: rgb(130, 219, 248);
     padding: 4px;
-    border: 2px solid #a9a9a9;
     width:200px;
 }
 .ja{
@@ -18,10 +17,63 @@ strong{
 }
 .ja-s{
     background-color: rgb(244, 112, 75);
+    padding: 10px 10px;
 }
 .php{
     background-color: rgb(126, 106, 164);
+    padding: 10px;
 }
 hr{
+    margin-top: 30px;
     margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .link-img {
+        height: auto;
+    }
+
+    .parent-container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .flex-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mini {
+        width: 100%;
+    }
+
+    .img-1 {
+        margin-left: 0;
+        margin: 20px;
+    }
+
+    .port-1 {
+        margin-left: 0;
+        width: 90%;
+    }
+    .flex{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .img-1 {
+        margin: 10px;
+    }
+
+    .port-1 {
+        width: 95%;
+    }
 }

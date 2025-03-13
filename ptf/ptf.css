@@ -1,19 +1,25 @@
-
-h1{
+h1 {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
-.link-img{
+
+.link-img {
     transform: scale(0.6);
     display: flex;
     align-items: flex-start;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     height: 350px;
 }
-.parent-container{
+
+.link-img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.parent-container {
     display: flex;
     margin-top: 0;
     flex-wrap: wrap;
@@ -21,61 +27,138 @@ h1{
     margin: 5px;
     height: 615px;
 }
-.flex-wrapper{
+
+.flex-wrapper {
     width: 600px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
 }
-mini{
-    width: 45%; 
-    white-space: nowrap; 
+
+mini {
+    width: 45%;
+    white-space: nowrap;
     overflow: hidden;
     margin: 2px;
 }
-.flex-wrapper img{
+
+.flex-wrapper img {
     display: block;
 }
+
 img {
     margin: 5px;
     border: 3px solid #a9a9a9;
-    }
-.h1-1{
+}
+
+.h1-1 {
     text-align: center;
 }
-.img-1{
+
+.img-1 {
     height: 350px;
     margin: 40px;
     margin-left: 200px;
     border: 3px solid #a9a9a9;
     padding: 10px;
-    
 }
-.port-1{
+
+.img-1 img {
+    border: 3px solid #a9a9a9;
+}
+
+.port-1 {
     width: 500px;
     margin-top: 20px;
     margin-left: 100px;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-strong{
+
+strong {
     font-size: 20px;
     background-color: rgb(130, 219, 248);
     padding: 4px;
     border: 2px solid #a9a9a9;
 }
-.ja{
+
+.ja {
     margin-top: 20px;
     font-size: 15px;
     padding: 4px;
     border: 1px solid #b2b2b3;
     width: 200px;
 }
-.ja-s{
+
+.ja-s {
     background-color: rgb(244, 112, 75);
 }
-.php{
+
+.php {
     background-color: rgb(110, 85, 155);
+}
+
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .link-img {
+        height: auto;
+    }
+
+    .parent-container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .flex-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mini {
+        width: 100%;
+    }
+
+    .img-1 {
+        margin-left: 0;
+        margin: 20px;
+    }
+
+    .port-1 {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .link-img img{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .img-1 {
+        margin: 10px;
+    }
+
+    .port-1 {
+        width: 95%;
+    }
+
+    .link-img img{
+        max-width: 60%;
+    }
+
 }
