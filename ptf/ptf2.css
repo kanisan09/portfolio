@@ -1,0 +1,75 @@
+body{ 
+    background-image: url(img/長方形\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 380px 127px;
+}
+.left img{
+    margin: 3px 5px 0 0 ;
+}
+
+.right {
+    width: 420px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.ptf-h1 {
+    writing-mode: vertical-rl; 
+}
+
+.mini img {
+    height: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 3px; 
+}
+
+.box {
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+    width: 450px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    justify-items: center;
+    margin: 135px 380px;
+}
+
+.box :first-child {
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    body {
+      background-position: center; /* 調整 */
+      background-image: url(img/長方形\ 2.png);
+      background-repeat: no-repeat;
+        background-size: 400px;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+  
+    .left img {
+      margin: 0; /* 調整 */
+    }
+    .right {
+        flex-wrap: wrap;
+        display: flex;
+        padding-left: 105px;
+    }
+    .mini img {
+      margin: 5px; /* 調整 */
+    }
+
+  
+    .box {
+      width: 100%; /* 調整 */
+      grid-template-columns:1fr; /* 調整 */
+      margin: 50px auto; /* 調整 */
+    }
+  }
+  
+  @media (max-width: 480px) {
+  }
