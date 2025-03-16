@@ -1,5 +1,5 @@
 body{
-    padding: 0 100px;
+    margin: 0 100px;
 }
 strong{
     font-size: 20px;
@@ -43,6 +43,19 @@ hr{
 .eee{
     text-align: center;
 }
+
+.tako{
+    background-color: rgb(252, 3, 3);
+    color: white;
+    padding: 10px;
+}
+
+.line{
+    background-color: rgb(0, 255, 0);
+    color: black;
+    padding: 10px;
+}
+
 @media screen and (max-width: 767px) {
     h1 {
         font-size: 1.5em;

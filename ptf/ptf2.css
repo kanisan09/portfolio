@@ -1,10 +1,11 @@
-body{ 
+body {
     background-image: url(img/長方形\ 1.png);
     background-repeat: no-repeat;
     background-position: 380px 127px;
 }
-.left img{
-    margin: 3px 5px 0 0 ;
+
+.left img {
+    margin: 3px 5px 0 0;
 }
 
 .right {
@@ -14,13 +15,13 @@ body{
 }
 
 .ptf-h1 {
-    writing-mode: vertical-rl; 
+    writing-mode: vertical-rl;
 }
 
 .mini img {
     height: auto;
     box-sizing: border-box;
-    margin: 3px 3px 0px 3px; 
+    margin: 3px 3px 0px 3px;
 }
 
 .box {
@@ -39,37 +40,52 @@ body{
 
 @media (max-width: 768px) {
     body {
-      background-position: center; /* 調整 */
-      background-image: url(img/長方形\ 2.png);
-      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(img/長方形\ 2.png);
+        background-repeat: no-repeat;
         background-size: 400px;
         width: 100%;
     }
 
-    h1{
+    h1 {
         font-size: 15px;
         margin-bottom: 30px;
     }
-  
+
     .left img {
-      margin: 0; /* 調整 */
+        margin: 0;
     }
+
     .right {
         flex-wrap: wrap;
         display: flex;
         padding-left: 105px;
     }
+
     .mini img {
-      margin: 5px; /* 調整 */
+        margin: 5px;
     }
 
-  
+
     .box {
-      width: 100%; /* 調整 */
-      grid-template-columns:1fr; /* 調整 */
-      margin: 50px auto; /* 調整 */
+        width: 100px;
+        grid-template-columns: 1fr;
+        margin: 50px auto;
     }
-  }
-  
-  @media (max-width: 480px) {
-  }
+}
+
+@media (max-width: 1366px) {
+body {
+    background-image: url(img/長方形\ 1.png);
+    background-position: center;
+}
+
+.box {
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+    width: 750px;
+    justify-items: center;
+    margin: 20px auto;
+}
+
+}
