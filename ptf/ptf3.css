@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+}
+
+.slide,
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    height: 350px;
+    width: 350px;
+    border: 2px solid rgb(233, 233, 233);
+}
+
+.thumbnail img {
+    height: 87px;
+    width: 87px;
+}
+
+#prev {
+    width: 30px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+
+#next {
+    width: 30px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    cursor: pointer;
+    transform: rotate(-45deg);
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
