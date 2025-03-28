@@ -22,6 +22,8 @@ body {
 .thumbnail img {
     height: 87px;
     width: 87px;
+    padding-bottom: 30px;
+    cursor: pointer;
 }
 
 #prev {
@@ -43,10 +45,21 @@ body {
 }
 
 h1{
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
-p{
+.modoru{
+    padding: 5px;
     text-align: center;
+}
+
+.modoru a{
+    padding: 10px 20px;
+    background-color: rgb(195, 193, 193);
+    height: 20px;
+    width: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
